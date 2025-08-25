@@ -113,26 +113,26 @@ module load mummer4/4.0.0rc1
 module load samtools/1.19.2
 
 declare -A GENOME_SIZES
-GENOME_SIZES["1B"]="size-in-mb"
-GENOME_SIZES["1D"]="size-in-mb"
-GENOME_SIZES["2A"]="size-in-mb"
-GENOME_SIZES["2B"]="size-in-mb"
-GENOME_SIZES["2D"]="size-in-mb"
-GENOME_SIZES["3A"]="size-in-mb"
-GENOME_SIZES["3B"]="size-in-mb"
-GENOME_SIZES["3D"]="size-in-mb"
-GENOME_SIZES["4A"]="size-in-mb"
-GENOME_SIZES["4B"]="size-in-mb"
-GENOME_SIZES["4D"]="size-in-mb"
-GENOME_SIZES["5A"]="size-in-mb"
-GENOME_SIZES["5B"]="size-in-mb"
-GENOME_SIZES["5D"]="size-in-mb"
-GENOME_SIZES["6A"]="size-in-mb"
-GENOME_SIZES["6B"]="size-in-mb"
-GENOME_SIZES["6D"]="size-in-mb"
-GENOME_SIZES["7A"]="size-in-mb"
-GENOME_SIZES["7B"]="size-in-mb"
-GENOME_SIZES["7D"]="size-in-mb"
+GENOME_SIZES["1B"]="sizeinmb"
+GENOME_SIZES["1D"]="sizeinmb"
+GENOME_SIZES["2A"]="sizeinmb"
+GENOME_SIZES["2B"]="sizeinmb"
+GENOME_SIZES["2D"]="sizeinmb"
+GENOME_SIZES["3A"]="sizeinmb"
+GENOME_SIZES["3B"]="sizeinmb"
+GENOME_SIZES["3D"]="sizeinmb"
+GENOME_SIZES["4A"]="sizeinmb"
+GENOME_SIZES["4B"]="sizeinmb"
+GENOME_SIZES["4D"]="sizeinmb"
+GENOME_SIZES["5A"]="sizeinmb"
+GENOME_SIZES["5B"]="sizeinmb"
+GENOME_SIZES["5D"]="sizeinmb"
+GENOME_SIZES["6A"]="sizeinmb"
+GENOME_SIZES["6B"]="sizeinmb"
+GENOME_SIZES["6D"]="sizeinmb"
+GENOME_SIZES["7A"]="sizeinmb"
+GENOME_SIZES["7B"]="sizeinmb"
+GENOME_SIZES["7D"]="sizeinmb"
 
 MUMANDCO_SCRIPT=$(ls /directory/this/saved/MUMandCo/mumandco_v*.sh | head -n 1)
 
@@ -160,6 +160,7 @@ done
 Maintainer:
 
 Ruby Mijan
+
 
 
 
