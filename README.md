@@ -10,6 +10,8 @@ cd /your/directory
 git clone https://github.com/SAMtoBAM/MUMandCo.git
 cd MUMandCo
 
+chmod +x mumandco__v3.8.sh
+
 # Add MUM&Co to PATH
 export PATH=/directory/this/saved/MUMandCo:$PATH
 echo 'export PATH=/directory/this/saved/MUMandCo:$PATH' >> ~/.bashrc
@@ -19,7 +21,8 @@ source ~/.bashrc
 ml mummer4/4.0.0rc1
 ml samtools/1.19.2
 
-chmod +x mumandco__v3.8.sh
+# Load help to know if it is working
+./mumandco_v3.8.sh --help
 ```
 
 ## 2. Example Run: Whole Genome
@@ -157,5 +160,6 @@ done
 Maintainer:
 
 Ruby Mijan
+
 
 
