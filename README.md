@@ -9,7 +9,6 @@ This repository documents how to install and run **MUM&Co** for whole-genome and
 cd /your/directory
 git clone https://github.com/SAMtoBAM/MUMandCo.git
 cd MUMandCo
-chmod +x mumandco__v3.8.sh
 
 # Add MUM&Co to PATH
 export PATH=/directory/this/saved/MUMandCo:$PATH
@@ -19,6 +18,8 @@ source ~/.bashrc
 # Load required modules
 ml mummer4/4.0.0rc1
 ml samtools/1.19.2
+
+chmod +x mumandco__v3.8.sh
 ```
 
 ## 2. Example Run: Whole Genome
@@ -156,4 +157,5 @@ done
 Maintainer:
 
 Ruby Mijan
+
 
