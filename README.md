@@ -27,7 +27,7 @@ ml samtools/1.19.2
 
 ## 2. Example Run: Per chromosome
 ```bash
-bash /directory/this/saved/MUMandCo/mumandco_v3.8.sh -r /directory/this/saved/split_referencewheat_by_chr/Chr1A.fa -q /directory/this/saved/split_querywheat_by_chr/chr1A.fasta -g sizeinmb -o chr1A -t 48
+bash /directory/this/saved/MUMandCo/mumandco_v3.8.sh -r /directory/this/saved/split_referencewheat_by_chr/Chr1A.fa -q /directory/this/saved/split_querywheat_by_chr/chr1A.fasta -g sizeinmb -p chr1A -t 48
 ```
 
 ## 5. SLURM Script: Chromosome 1A
@@ -46,7 +46,7 @@ module load mummer4/4.0.0rc1
 module load samtools/1.19.2
 
 #Run
-bash /directory/this/saved/MUMandCo/mumandco_v3.8.sh -r /directory/this/saved/split_referencewheat_by_chr/Chr1A.fa -q /directory/this/saved/split_querywheat_by_chr/chr1A.fasta -g sizeinmb -o chr1A -t 48
+bash /directory/this/saved/MUMandCo/mumandco_v3.8.sh -r /directory/this/saved/split_referencewheat_by_chr/Chr1A.fa -q /directory/this/saved/split_querywheat_by_chr/chr1A.fasta -g sizeinmb -p chr1A -t 48
 ```
 
 Maintainer:
